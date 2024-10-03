@@ -15,6 +15,7 @@ protocol Describable {
 // Define the structure
 struct cylinder: Describable {
     
+    //2.PROCESSING
     // stored properties
     var radius: Double
 

@@ -20,6 +20,7 @@ struct CylinderView: View {
             //Label (describe what the slider for)
             Text("Radius & Height")
             
+            //1.INPUT
             //Slider control - to allow for user input
             Slider(
                 value: $currentCylinder.radius,
@@ -32,9 +33,18 @@ struct CylinderView: View {
                 in: 1...10,
                 step: 0.1
             )
+            //3.OUTPUT
             //Label (show the current slider value)
             Text("Radius is: \(currentCylinder.radius.formatted())")
             Text("Height is: \(currentCylinder.height.formatted())")
+            
+            //Label (show the aBase)
+            Text("aBase is: \(currentCylinder.aBase.formatted())")
+            //Label (show the aLateralSurface)
+            Text("aLateralSurface is: \(currentCylinder.aLateralSurface.formatted())")
+            //Label (show the volume)
+            Text("volume is: \(currentCylinder.volume.formatted())")
+            
         }
     }
 }
