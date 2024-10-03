@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		657345602CAB2BE000AD3A45 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573455F2CAB2BE000AD3A45 /* GeometricFiguresApp.swift */; };
+		65C2B7B52CAECAF500DA8C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C2B7AF2CAECAF500DA8C62 /* Preview Assets.xcassets */; };
+		65C2B7B62CAECAF500DA8C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C2B7B32CAECAF500DA8C62 /* Assets.xcassets */; };
+		65C2B7BD2CAECD6E00DA8C62 /* CylinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2B7BC2CAECD6E00DA8C62 /* CylinderView.swift */; };
+		65C2B7BF2CAECD8300DA8C62 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2B7BE2CAECD8300DA8C62 /* Cylinder.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6573455C2CAB2BE000AD3A45 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6573455F2CAB2BE000AD3A45 /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		65C2B7AF2CAECAF500DA8C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65C2B7B32CAECAF500DA8C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C2B7BC2CAECD6E00DA8C62 /* CylinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderView.swift; sourceTree = "<group>"; };
+		65C2B7BE2CAECD8300DA8C62 /* Cylinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		6573455E2CAB2BE000AD3A45 /* GeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		657345592CAB2BE000AD3A45 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		657345532CAB2BE000AD3A45 = {
 			isa = PBXGroup;
 			children = (
-				6573455E2CAB2BE000AD3A45 /* GeometricFigures */,
+				65C2B7B42CAECAF500DA8C62 /* GeometricFigures */,
 				6573455D2CAB2BE000AD3A45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				6573455C2CAB2BE000AD3A45 /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65C2B7AE2CAECAF500DA8C62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65C2B7BE2CAECD8300DA8C62 /* Cylinder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65C2B7B02CAECAF500DA8C62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65C2B7AF2CAECAF500DA8C62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65C2B7B22CAECAF500DA8C62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65C2B7BC2CAECD6E00DA8C62 /* CylinderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65C2B7B42CAECAF500DA8C62 /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				6573455F2CAB2BE000AD3A45 /* GeometricFiguresApp.swift */,
+				65C2B7AE2CAECAF500DA8C62 /* Model */,
+				65C2B7B22CAECAF500DA8C62 /* View */,
+				65C2B7B02CAECAF500DA8C62 /* Preview Content */,
+				65C2B7B32CAECAF500DA8C62 /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				6573455E2CAB2BE000AD3A45 /* GeometricFigures */,
 			);
 			name = GeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C2B7B52CAECAF500DA8C62 /* Preview Assets.xcassets in Resources */,
+				65C2B7B62CAECAF500DA8C62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657345602CAB2BE000AD3A45 /* GeometricFiguresApp.swift in Sources */,
+				65C2B7BF2CAECD8300DA8C62 /* Cylinder.swift in Sources */,
+				65C2B7BD2CAECD6E00DA8C62 /* CylinderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

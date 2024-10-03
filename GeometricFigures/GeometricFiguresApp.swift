@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct GeometricFiguresApp: App {
+    
+    //MARK: Computer Properties
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CylinderView()
         }
     }
 }
